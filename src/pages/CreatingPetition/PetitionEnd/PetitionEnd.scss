@@ -1,0 +1,30 @@
+.end_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.succesfully {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 523px;
+  border-radius: 20px;
+  height: 275px;
+  border: 1px solid black;
+
+  button {
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 81px;
+    height: 36px;
+    background-color: #2d2652;
+    color: white;
+    border: none;
+  }
+  button:hover {
+    background-color: #514492;
+  }
+}

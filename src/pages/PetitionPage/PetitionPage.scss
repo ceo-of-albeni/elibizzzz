@@ -1,0 +1,50 @@
+.photo_and_votes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar_progress {
+  width: 300px;
+}
+
+.bar_texts {
+  margin: 10px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar_and_text {
+  margin-top: 60px;
+
+  button {
+    margin-top: 80px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 70px;
+    background-color: white;
+  }
+
+  button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+.weekly_signs {
+  width: fit-content;
+  background-color: #eaeaea;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+#signed {
+  color: #0d6efd;
+}
+
+#petition_full {
+  margin-top: 60px;
+  font-size: 20px;
+  width: 70%;
+}
